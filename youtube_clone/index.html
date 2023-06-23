@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0bff35fa4d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <i class="fa-brands fa-youtube"></i>
+        <span class="title">Youtube<sup>KR</sup> </span>
+      </div>
+      <div class="buttons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </div>
+
+    <!-- Video -->
+    <section class="player">
+      <video class="video" src="videos/video1.mp4" controls="controls"></video>
+    </section>
+    <!-- Channel Info -->
+    <div class="info">
+      <section class="hashTags">
+        <span class="tag">#장범준</span>
+        <span class="tag">#반지하노래방</span>
+        <span class="tag">#라이브</span>
+      </section>
+      <section class="titleSection">
+        <span class="title clamp"
+          >버스커 버스커 - 향수[장범준 반지하 노래방] 비주류 특집! 처음으로
+          장범준 유튜브에 게스트로 출연해주신 10CM 선배님!과 함께한 1월 6일
+          반지하 노래방 라이브 입니다! *반지하 노래방 라이브는 실제 노래방이
+          아닌 작업실에서 진행하는 라이브구요, 방역수칙을 준수하며 진행
+          하였습니다.</span
+        >
+        <button class="moreButton">
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </section>
+      <section class="viewSection">
+        <span class="views">1.5M views</span>
+        <span class="date">10 months ago</span>
+      </section>
+      <section class="interactiveButtons">
+        <i class="fas fa-thumbs-up">1K</i>
+        <i class="fas fa-thumbs-down">28</i>
+        <i class="fas fa-share">Share</i>
+        <i class="fas fa-plus">Save</i>
+        <i class="fab fa-font-awesome-flag">Report</i>
+      </section>
+      <section class="channel">
+        <div class="informations">
+          <div class="metaData">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+              class="avartar"
+            />
+            <div class="info">
+              <span class="id">장범준</span>
+              <span class="subscribes">구독자 91.9만명</span>
+            </div>
+          </div>
+          <button class="btnSubscribe">구독하기</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- More Videos -->
+    <section class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img">
+            <img src="images/image1.avif" alt="" />
+          </div>
+          <div class="info">
+            <span class="title">브로콜리 너마저 - 앵콜요청금지!</span>
+            <span class="name">장범준</span>
+            <span class="views">83K views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="images/image2.avif" alt="" />
+          </div>
+          <div class="info">
+            <span class="title">피노키오 - 사랑과 우정사이!</span>
+            <span class="name">장범준</span>
+            <span class="views">91K views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img src="images/image3.avif" alt="" />
+          </div>
+          <div class="info">
+            <span class="title">박효신 - 동경!</span>
+            <span class="name">장범준</span>
+            <span class="views">16K views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+      </ul>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
